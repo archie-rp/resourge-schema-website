@@ -23,8 +23,8 @@ Exists 3 types of rules:
 
 `Normal rule` consist of 2 types of rules:
 
-- <a href="">test</a>
-- <a href="">asyncTest</a>
+- <a href="/">test</a>
+- <a href="/">asyncTest</a>
 
 Also exists some predefined normal rules:
 
@@ -107,7 +107,7 @@ Compile Options
 | **onlyOnTouch** | `boolean` | false | false | Set's default onlyOnTouch in every schema. (default false) |
 | **defaultOptional** | `boolean` | false | undefined | Set's default optional in every schema. (default undefined, meaning it will not validate if is optional or not) |
 | **defaultNullable** | `boolean` | false | undefined | Set's default nullable in every schema. (default undefined, meaning it will not validate if is nullable or not) |
-| **messages** | `object` | false |  | Object containing all default messages (expect the specific message for the schema). |
+| **messages** | `object` | false | false | Object containing all default messages (expect the specific message for the schema). |
 
 ### validate
 
@@ -121,15 +121,16 @@ const schema = object({
 }).compile();
 
 const errors = schema.validate({ age: 10 }) 
-/* errors will be
+```
+
+Errors will be:
+```javascript
 [
   { 
     key: 'age',
     error: 'Requires to have at least minimum size of 20'}
   }
 ]
-*/
-
 ```
 
 ### isValid
@@ -181,13 +182,13 @@ schema.isValid(user)
 
 Makes validation only if values were `touched`. By default, all validation will work regardless of `touches`.
 
-```js,ts
+```javascript
 string().onlyOnTouch()
 ```
 
 Requires an array of strings `keys` to validate camp. Only keys present will validate.
 
-```js,ts
+```javascript
 object({
   name: string().required().onlyOnTouch(),
   age: number().min(18).required().onlyOnTouch(),

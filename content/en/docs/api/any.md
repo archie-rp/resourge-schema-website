@@ -15,7 +15,7 @@ toc: true
 
 ## Example
 
-```js,ts
+```javascript
 import { any } from '@resourge/schema';
 
 any()

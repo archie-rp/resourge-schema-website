@@ -15,7 +15,7 @@ toc: true
 
 ## Example
 
-```js,ts
+```javascript
 import { number } from '@resourge/schema';
 
 number()
@@ -32,7 +32,7 @@ number().min(1)
 
 Checks if number is bigger than minValue.
 
-```js,ts
+```javascript
 number().min(1)
 // with custom message
 number().min(1, 'Custom error message')
@@ -42,7 +42,7 @@ number().min(1, 'Custom error message')
 
 Checks if number is smaller than maxValue.
 
-```js,ts
+```javascript
 
 number().max(10)
 // with custom message
@@ -53,7 +53,7 @@ number().max(10, 'Custom error message')
 
 Checks if number is between minValue and maxValue.
 
-```js,ts
+```javascript
 number().between(1, 10)
 // with custom message
 number().between(1, 10, 'Custom error message')
@@ -63,7 +63,7 @@ number().between(1, 10, 'Custom error message')
 
 Checks if number equal to value.
 
-```js,ts
+```javascript
 number().equals(1)
 // with custom message
 number().equals(1, 'Custom error message')
@@ -78,7 +78,7 @@ number().equals([1, 10], 'Custom error message')
 
 Checks if number is integer.
 
-```js,ts
+```javascript
 number().integer()
 // with custom message
 number().integer('Custom error message')
@@ -88,7 +88,7 @@ number().integer('Custom error message')
 
 Checks if number is decimal.
 
-```js,ts
+```javascript
 number().decimal()
 // with custom message
 number().decimal('Custom error message')
@@ -98,7 +98,7 @@ number().decimal('Custom error message')
 
 Checks if number is a positive value.
 
-```js,ts
+```javascript
 number().positive()
 // with custom message
 number().positive('Custom error message')
@@ -108,7 +108,7 @@ number().positive('Custom error message')
 
 Checks if number is a negative value.
 
-```js,ts
+```javascript
 number().negative()
 // with custom message
 number().negative('Custom error message')
@@ -118,7 +118,7 @@ number().negative('Custom error message')
 
 Checks if number is a value of enum.
 
-```js,ts
+```javascript
 
 enum FieldTypeEnum {
   FREE_TEXT = 1,

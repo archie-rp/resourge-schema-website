@@ -15,7 +15,7 @@ toc: true
 
 ## Example
 
-```js,ts
+```javascript
 import { number, array } from '@resourge/schema';
 
 array(<<Schema>>)
@@ -32,7 +32,7 @@ array(number()).min(1)
 
 Checks if array is empty
 
-```js,ts
+```javascript
 array(number()).empty()
 // with custom message
 array(number()).empty('Custom error message')
@@ -42,7 +42,7 @@ array(number()).empty('Custom error message')
 
 Checks if array has a minimal number of items in array
 
-```js,ts
+```javascript
 array(number()).min(1)
 // with custom message
 array(number()).min(1, 'Custom error message')
@@ -52,7 +52,7 @@ array(number()).min(1, 'Custom error message')
 
 Checks if array has a maximal number of elements.
 
-```js,ts
+```javascript
 
 array(number()).max(10)
 // with custom message
@@ -63,7 +63,7 @@ array(number()).max(10, 'Custom error message')
 
 Checks if array has length number of elements
 
-```js,ts
+```javascript
 array(number()).length(1, 10)
 // with custom message
 array(number()).length(1, 10, 'Custom error message')
@@ -73,7 +73,7 @@ array(number()).length(1, 10, 'Custom error message')
 
 Checks if array has only unique elements
 
-```js,ts
+```javascript
 array(number()).unique()
 // with custom message
 array(number()).unique('Custom error message')
@@ -83,7 +83,7 @@ array(number()).unique('Custom error message')
 
 Checks if array has only unique elements by key
 
-```js,ts
+```javascript
 array(
  object({
   productId: number(),

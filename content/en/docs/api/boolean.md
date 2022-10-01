@@ -15,7 +15,7 @@ toc: true
 
 ## Example
 
-```js,ts
+```javascript
 import { boolean } from '@resourge/schema';
 
 boolean()
@@ -29,7 +29,7 @@ boolean('Custom error message')
 
 Checks if boolean is true or false
 
-```js,ts
+```javascript
 date().mustBe(true)
 // with custom message
 date().mustBe(true, 'Custom error message')

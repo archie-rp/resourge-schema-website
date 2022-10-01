@@ -15,7 +15,7 @@ toc: true
 
 ## Example
 
-```js,ts
+```javascript
 import { string } from '@resourge/schema';
 
 string()
@@ -29,7 +29,7 @@ string('Custom error message')
 
 Checks if string is not null/undefined/empty string. (Basically the default [MANDATORY_RULES](./MANDATORY_RULES.md) plus empty string)
 
-```js,ts
+```javascript
 string().required()
 // with custom message
 string().required('Custom error message')
@@ -39,7 +39,7 @@ string().required('Custom error message')
 
 Checks if string has a size bigger than minValue.
 
-```js,ts
+```javascript
 string().min(1)
 // with custom message
 string().min(1, 'Custom error message')
@@ -49,7 +49,7 @@ string().min(1, 'Custom error message')
 
 Checks if string has a size smaller than maxValue.
 
-```js,ts
+```javascript
 
 string().max(10)
 // with custom message
@@ -60,7 +60,7 @@ string().max(10, 'Custom error message')
 
 Checks if string is between minValue and maxValue.
 
-```js,ts
+```javascript
 string().between(1, 10)
 // with custom message
 string().between(1, 10, 'Custom error message')
@@ -70,7 +70,7 @@ string().between(1, 10, 'Custom error message')
 
 Checks if string has length number of characters
 
-```js,ts
+```javascript
 string().length(10)
 // with custom message
 string().length(10, 'Custom error message')
@@ -80,7 +80,7 @@ string().length(10, 'Custom error message')
 
 Checks if string equal to value.
 
-```js,ts
+```javascript
 string().equals('name')
 // with custom message
 string().equals('name', 'Custom error message')
@@ -95,7 +95,7 @@ string().equals(['name', 'id'], 'Custom error message')
 
 Matches regular expression
 
-```js,ts
+```javascript
 string().pattern(/\d{4}([-]\d{3})?/)
 // with custom message
 string().pattern(/\d{4}([-]\d{3})?/, 'Custom error message')
@@ -105,7 +105,7 @@ string().pattern(/\d{4}([-]\d{3})?/, 'Custom error message')
 
 Checks if string is empty.
 
-```js,ts
+```javascript
 string().empty()
 // with custom message
 string().empty('Custom error message')
@@ -115,7 +115,7 @@ string().empty('Custom error message')
 
 Checks if string contains value.
 
-```js,ts
+```javascript
 string().contains('name')
 // with custom message
 string().contains('name', 'Custom error message')
@@ -125,7 +125,7 @@ string().contains('name', 'Custom error message')
 
 Checks if string contains only numeric characters.
 
-```js,ts
+```javascript
 string().numeric()
 // with custom message
 string().numeric('Custom error message')
@@ -135,7 +135,7 @@ string().numeric('Custom error message')
 
 Checks if string contains only alpha characters.
 
-```js,ts
+```javascript
 string().alpha()
 // with custom message
 string().alpha('Custom error message')
@@ -145,7 +145,7 @@ string().alpha('Custom error message')
 
 Checks if string contains only alpha-numeric characters
 
-```js,ts
+```javascript
 string().alphanum()
 // with custom message
 string().alphanum('Custom error message')
@@ -155,7 +155,7 @@ string().alphanum('Custom error message')
 
 Checks if string contains only contains alpha-numeric characters, as well as dashes and underscores.
 
-```js,ts
+```javascript
 string().alphadash()
 // with custom message
 string().alphadash('Custom error message')
@@ -165,7 +165,7 @@ string().alphadash('Custom error message')
 
 Checks if string is hexadecimal.
 
-```js,ts
+```javascript
 string().hex()
 // with custom message
 string().hex('Custom error message')
@@ -175,7 +175,7 @@ string().hex('Custom error message')
 
 Checks if string is hexadecimal.
 
-```js,ts
+```javascript
 string().hex()
 // with custom message
 string().hex('Custom error message')
@@ -185,7 +185,7 @@ string().hex('Custom error message')
 
 Checks if string is format uuid.
 
-```js,ts
+```javascript
 string().uuid()
 // with custom message
 string().uuid('Custom error message')
@@ -195,7 +195,7 @@ string().uuid('Custom error message')
 
 Checks if string is URL accepted.
 
-```js,ts
+```javascript
 string().url()
 // with custom message
 string().url('Custom error message')
@@ -205,7 +205,7 @@ string().url('Custom error message')
 
 Checks if string is format cuid.
 
-```js,ts
+```javascript
 string().cuid()
 // with custom message
 string().cuid('Custom error message')
@@ -220,7 +220,7 @@ Checks if is a valid email.
 - basic -> Validation of basic email template.
 - precise -> Validation of a more restricted email template.
 
-```js,ts
+```javascript
 string().email()
 // or
 string().email('basic', 'Custom error message') // 'basic' | 'precise'
@@ -233,7 +233,7 @@ string().email('Custom error message')
 Checks if is a valid postalCode.
 Postal Codes regex validations are included.
 
-```js,ts
+```javascript
 import { PostalCodes } from '@resourge/schemas/postalCodes';
 
 object({
@@ -277,7 +277,7 @@ object({
 Checks if is a valid phoneNumber.
 Phone Number regex validations are included for every country.
 
-```js,ts
+```javascript
 import { phoneNumbers } from '@resourge/schemas/phoneNumbers';
 
 object({
@@ -316,7 +316,7 @@ object({
 
 Checks if string is a value of enum.
 
-```js,ts
+```javascript
 
 enum FieldTypeEnum {
   FREE_TEXT = 'FREE_TEXT',

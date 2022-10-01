@@ -15,7 +15,7 @@ toc: true
 
 ## Example
 
-```js,ts
+```javascript
 import { date } from '@resourge/schema';
 
 date()
@@ -29,7 +29,7 @@ date('Custom error message')
 
 Checks if date is today
 
-```js,ts
+```javascript
 date().today()
 // with custom message
 date().today('Custom error message')
