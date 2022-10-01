@@ -15,9 +15,9 @@ toc: true
 
 Exists 3 types of rules:
 
-- <a href="">Normal Rule</a>
-- <a href="">Mandatory Rule</a>
-- <a href="">When Rule</a>
+- <a href="/">Normal Rule</a>
+- <a href="/">Mandatory Rule</a>
+- <a href="/">When Rule</a>
 
 ## Normal Rules
 
