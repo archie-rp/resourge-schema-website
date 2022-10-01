@@ -123,7 +123,7 @@ const schema = object({
 const errors = schema.validate({ age: 10 }) 
 ```
 
-Errors will be:
+Errors format:
 
 ```javascript
 [
