@@ -13,8 +13,6 @@ weight: 130
 toc: true
 ---
 
-# String
-
 ## Example
 
 ```js,ts
@@ -26,7 +24,6 @@ string('Custom error message')
 ```
 
 ## Options
-
 
 ### required
 
@@ -218,10 +215,10 @@ string().cuid('Custom error message')
 
 Checks if is a valid email.
 
-@mode 
-  - basic -> Validation of basic email template.
-  - precise -> Validation of a more restricted email template.
+@mode
 
+- basic -> Validation of basic email template.
+- precise -> Validation of a more restricted email template.
 
 ```js,ts
 string().email()

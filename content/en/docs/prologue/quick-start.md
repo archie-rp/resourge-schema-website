@@ -116,9 +116,9 @@ const user: User = {
     country: 'Tempest'
   },
   hobbies: [
-	'Read',
-	'Nothing'
-  ]	
+ 'Read',
+ 'Nothing'
+  ] 
 }
 
 const schema = object<User>({

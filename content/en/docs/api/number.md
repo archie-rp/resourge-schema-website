@@ -114,7 +114,6 @@ number().negative()
 number().negative('Custom error message')
 ```
 
-
 ### enum
 
 Checks if number is a value of enum.

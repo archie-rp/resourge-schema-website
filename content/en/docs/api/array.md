@@ -85,24 +85,24 @@ Checks if array has only unique elements by key
 
 ```js,ts
 array(
-	object({
-		productId: number(),
-		productName: string()
-	})
+ object({
+  productId: number(),
+  productName: string()
+ })
 ).uniqueBy('productId')
 // with custom message
 array(
-	object({
-		productId: number(),
-		productName: string()
-	})
+ object({
+  productId: number(),
+  productName: string()
+ })
 ).uniqueBy('productId', 'Custom error message')
 // with method instead of key
 array(
-	object({
-		productId: number(),
-		productName: string()
-	})
+ object({
+  productId: number(),
+  productName: string()
+ })
 ).uniqueBy((obj) => obj.productName)
 ```
 

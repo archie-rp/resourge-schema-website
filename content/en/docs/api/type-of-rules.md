@@ -13,27 +13,28 @@ weight: 130
 toc: true
 ---
 
-# Types of rules
-
 Exists 3 types of rules:
-  - <a href="">Normal Rule</a>
-  - <a href="">Mandatory Rule</a>
-  - <a href="">When Rule</a>
+
+- <a href="">Normal Rule</a>
+- <a href="">Mandatory Rule</a>
+- <a href="">When Rule</a>
 
 ## Normal Rules
 
 `Normal rule` consist of 2 types of rules:
-  - <a href="">test</a>
-  - <a href="">asyncTest</a>
+
+- <a href="">test</a>
+- <a href="">asyncTest</a>
 
 Also exists some predefined normal rules:
-  - <a href="/resourge-schema/docs/api/any/">Any</a>
-  - <a href="/resourge-schema/docs/api/array/">Array</a>
-  - <a href="/resourge-schema/docs/api/boolean/">Boolean</a>
-  - <a href="/resourge-schema/docs/api/date/">Date</a>
-  - <a href="/resourge-schema/docs/api/number/">Number</a>
-  - <a href="/resourge-schema/docs/api/object/">Object</a>
-  - <a href="/resourge-schema/docs/api/string/">String</a>
+
+- <a href="/resourge-schema/docs/api/any/">Any</a>
+- <a href="/resourge-schema/docs/api/array/">Array</a>
+- <a href="/resourge-schema/docs/api/boolean/">Boolean</a>
+- <a href="/resourge-schema/docs/api/date/">Date</a>
+- <a href="/resourge-schema/docs/api/number/">Number</a>
+- <a href="/resourge-schema/docs/api/object/">Object</a>
+- <a href="/resourge-schema/docs/api/string/">String</a>
 
 {{< alert icon="💡" text="If you have rules that you normally use, please tell us so we can improve the package." />}}
 
@@ -172,7 +173,6 @@ schema.isValid(user)
 
 ```
 
-
 ## Mandatory Rules
 
 `Mandatory rule` are rules that come before `Normal Rule` and in case they fail `Normal Rule` will not be called.
@@ -192,20 +192,20 @@ object({
   name: string().required().onlyOnTouch(),
   age: number().min(18).required().onlyOnTouch(),
   address: object({
-	city: string().onlyOnTouch(),
-	street: string().onlyOnTouch()
+ city: string().onlyOnTouch(),
+ street: string().onlyOnTouch()
   })
 }).validate(objectVariable, [
-	'name',
-	'age',
-	'address.city',
-	'address.street'
+ 'name',
+ 'age',
+ 'address.city',
+ 'address.street'
 ])
 ```
 
 ### notOnlyOnTouch
 
-Makes validation validate regardless of `touch`. 
+Makes validation validate regardless of `touch`.
 
 ```javascript
 string().notOnlyOnTouch()
@@ -218,6 +218,7 @@ Makes validation check if value is null or undefined. By default schemas only va
 ```javascript
 string().required()
 ```
+
 ### notRequired
 
 Makes validation required (meaning it can be null and undefined)
@@ -225,6 +226,7 @@ Makes validation required (meaning it can be null and undefined)
 ```javascript
 string().notRequired()
 ```
+
 ### optional
 
 Makes validation check if value is undefined. By default schemas only validate type.
@@ -232,6 +234,7 @@ Makes validation check if value is undefined. By default schemas only validate t
 ```javascript
 string().optional()
 ```
+
 ### notOptional
 
 Makes validation optional (meaning it can not be undefined)
@@ -239,6 +242,7 @@ Makes validation optional (meaning it can not be undefined)
 ```javascript
 string().notOptional()
 ```
+
 ## nullable
 
 Makes validation check if value is null. By default schemas only validate type.
@@ -246,6 +250,7 @@ Makes validation check if value is null. By default schemas only validate type.
 ```javascript
 string().nullable()
 ```
+
 ### notNullable
 
 Makes validation nullable (meaning it can not be null)
@@ -253,5 +258,3 @@ Makes validation nullable (meaning it can not be null)
 ```javascript
 string().notNullable()
 ```
-
-
