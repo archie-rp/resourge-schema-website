@@ -124,6 +124,7 @@ const errors = schema.validate({ age: 10 })
 ```
 
 Errors will be:
+
 ```javascript
 [
   { 
