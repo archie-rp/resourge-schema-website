@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/Any",
+  "id": "api/Any",
+  "title": "Any",
+  "description": "Example",
+  "source": "@site/docs/api/Any.md",
+  "sourceDirName": "api",
+  "slug": "/api/Any",
+  "permalink": "/docs/api/Any",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/Any.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Number",
+    "permalink": "/docs/api/Number"
+  },
+  "next": {
+    "title": "Versions",
+    "permalink": "/docs/Versions"
+  }
+}

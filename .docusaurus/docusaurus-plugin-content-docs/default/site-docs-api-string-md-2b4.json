@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/String",
+  "id": "api/String",
+  "title": "String",
+  "description": "Example",
+  "source": "@site/docs/api/String.md",
+  "sourceDirName": "api",
+  "slug": "/api/String",
+  "permalink": "/docs/api/String",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/String.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Object",
+    "permalink": "/docs/api/Object"
+  },
+  "next": {
+    "title": "Date",
+    "permalink": "/docs/api/Date"
+  }
+}

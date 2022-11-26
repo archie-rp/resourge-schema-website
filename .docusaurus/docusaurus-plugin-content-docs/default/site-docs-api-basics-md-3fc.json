@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/Basics",
+  "id": "api/Basics",
+  "title": "Basics",
+  "description": "Exists 3 types of rules:",
+  "source": "@site/docs/api/Basics.md",
+  "sourceDirName": "api",
+  "slug": "/api/Basics",
+  "permalink": "/docs/api/Basics",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/Basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Api",
+    "permalink": "/docs/category/api"
+  },
+  "next": {
+    "title": "Array",
+    "permalink": "/docs/api/Array"
+  }
+}

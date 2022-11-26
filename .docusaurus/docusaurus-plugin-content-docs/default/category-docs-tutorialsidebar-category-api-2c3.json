@@ -1,0 +1,16 @@
+{
+  "title": "Api",
+  "description": "We support of different validations for all complex forms.",
+  "slug": "/category/api",
+  "permalink": "/docs/category/api",
+  "navigation": {
+    "previous": {
+      "title": "Quick Start",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Rules",
+      "permalink": "/docs/api/Rules"
+    }
+  }
+}

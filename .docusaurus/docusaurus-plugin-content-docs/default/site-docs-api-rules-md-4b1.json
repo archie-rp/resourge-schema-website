@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/Rules",
+  "id": "api/Rules",
+  "title": "Rules",
+  "description": "Exists 3 types of rules:",
+  "source": "@site/docs/api/Rules.md",
+  "sourceDirName": "api",
+  "slug": "/api/Rules",
+  "permalink": "/docs/api/Rules",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/Rules.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Api",
+    "permalink": "/docs/category/api"
+  },
+  "next": {
+    "title": "Array",
+    "permalink": "/docs/api/Array"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/any",
+  "id": "api/any",
+  "title": "any",
+  "description": "---",
+  "source": "@site/docs/api/any.md",
+  "sourceDirName": "api",
+  "slug": "/api/any",
+  "permalink": "/docs/api/any",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/any.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boolean",
+    "permalink": "/docs/api/Boolean"
+  },
+  "next": {
+    "title": "Type of Rules",
+    "permalink": "/docs/api/type-of-rules"
+  }
+}

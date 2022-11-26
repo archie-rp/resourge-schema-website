@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/Boolean",
+  "id": "api/Boolean",
+  "title": "Boolean",
+  "description": "Example",
+  "source": "@site/docs/api/Boolean.md",
+  "sourceDirName": "api",
+  "slug": "/api/Boolean",
+  "permalink": "/docs/api/Boolean",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/Boolean.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Date",
+    "permalink": "/docs/api/Date"
+  },
+  "next": {
+    "title": "Number",
+    "permalink": "/docs/api/Number"
+  }
+}

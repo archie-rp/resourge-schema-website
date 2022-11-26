@@ -1,0 +1,16 @@
+{
+  "title": "Tutorial - Basics",
+  "description": "We support of different validations for all complex forms.",
+  "slug": "/category/tutorial---basics",
+  "permalink": "/docs/category/tutorial---basics",
+  "navigation": {
+    "previous": {
+      "title": "Quick Start",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/tutorial-basics/create-a-page"
+    }
+  }
+}

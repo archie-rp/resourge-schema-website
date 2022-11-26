@@ -1,0 +1,145 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Quick Start",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Api",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Rules",
+            "href": "/docs/api/Rules",
+            "docId": "api/Rules"
+          },
+          {
+            "type": "link",
+            "label": "Array",
+            "href": "/docs/api/Array",
+            "docId": "api/Array"
+          },
+          {
+            "type": "link",
+            "label": "Object",
+            "href": "/docs/api/Object",
+            "docId": "api/Object"
+          },
+          {
+            "type": "link",
+            "label": "String",
+            "href": "/docs/api/String",
+            "docId": "api/String"
+          },
+          {
+            "type": "link",
+            "label": "Date",
+            "href": "/docs/api/Date",
+            "docId": "api/Date"
+          },
+          {
+            "type": "link",
+            "label": "Boolean",
+            "href": "/docs/api/Boolean",
+            "docId": "api/Boolean"
+          },
+          {
+            "type": "link",
+            "label": "Number",
+            "href": "/docs/api/Number",
+            "docId": "api/Number"
+          },
+          {
+            "type": "link",
+            "label": "Any",
+            "href": "/docs/api/Any",
+            "docId": "api/Any"
+          }
+        ],
+        "href": "/docs/category/api"
+      },
+      {
+        "type": "link",
+        "label": "Versions",
+        "href": "/docs/Versions",
+        "docId": "Versions"
+      }
+    ]
+  },
+  "docs": {
+    "api/Any": {
+      "id": "api/Any",
+      "title": "Any",
+      "description": "Example",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/Array": {
+      "id": "api/Array",
+      "title": "Array",
+      "description": "Example",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/Boolean": {
+      "id": "api/Boolean",
+      "title": "Boolean",
+      "description": "Example",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/Date": {
+      "id": "api/Date",
+      "title": "Date",
+      "description": "Example",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/Number": {
+      "id": "api/Number",
+      "title": "Number",
+      "description": "Example",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/Object": {
+      "id": "api/Object",
+      "title": "Object",
+      "description": "Example",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/Rules": {
+      "id": "api/Rules",
+      "title": "Rules",
+      "description": "Exists 3 types of rules:",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/String": {
+      "id": "api/String",
+      "title": "String",
+      "description": "Example",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Quick Start",
+      "description": "Quick Start validating forms with schema.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Versions": {
+      "id": "Versions",
+      "title": "Versions",
+      "description": "1.9.4 (2022-11-14)",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

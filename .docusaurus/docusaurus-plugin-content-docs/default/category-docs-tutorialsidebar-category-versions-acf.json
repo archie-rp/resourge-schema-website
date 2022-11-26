@@ -1,0 +1,16 @@
+{
+  "title": "Versions",
+  "description": "All versions from all updates.",
+  "slug": "/category/versions",
+  "permalink": "/docs/category/versions",
+  "navigation": {
+    "previous": {
+      "title": "Any",
+      "permalink": "/docs/api/Any"
+    },
+    "next": {
+      "title": "AllVersions",
+      "permalink": "/docs/releases/AllVersions"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "releases/All-versions",
+  "id": "releases/All-versions",
+  "title": "All-versions",
+  "description": "",
+  "source": "@site/docs/releases/All-versions.md",
+  "sourceDirName": "releases",
+  "slug": "/releases/All-versions",
+  "permalink": "/docs/releases/All-versions",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/releases/All-versions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Releases",
+    "permalink": "/docs/category/releases"
+  }
+}

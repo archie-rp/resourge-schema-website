@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/Number",
+  "id": "api/Number",
+  "title": "Number",
+  "description": "Example",
+  "source": "@site/docs/api/Number.md",
+  "sourceDirName": "api",
+  "slug": "/api/Number",
+  "permalink": "/docs/api/Number",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/Number.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boolean",
+    "permalink": "/docs/api/Boolean"
+  },
+  "next": {
+    "title": "Any",
+    "permalink": "/docs/api/Any"
+  }
+}

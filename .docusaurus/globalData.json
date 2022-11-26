@@ -1,0 +1,93 @@
+{
+  "@cmfcmf/docusaurus-search-local": {
+    "default": {
+      "titleBoost": 5,
+      "contentBoost": 1,
+      "tagsBoost": 3,
+      "parentCategoriesBoost": 2,
+      "indexDocSidebarParentCategories": 0,
+      "maxSearchResults": 8
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/Any",
+              "path": "/docs/api/Any",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/Array",
+              "path": "/docs/api/Array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/Boolean",
+              "path": "/docs/api/Boolean",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/Date",
+              "path": "/docs/api/Date",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/Number",
+              "path": "/docs/api/Number",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/Object",
+              "path": "/docs/api/Object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/Rules",
+              "path": "/docs/api/Rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/String",
+              "path": "/docs/api/String",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Versions",
+              "path": "/docs/Versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/api",
+              "path": "/docs/category/api",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

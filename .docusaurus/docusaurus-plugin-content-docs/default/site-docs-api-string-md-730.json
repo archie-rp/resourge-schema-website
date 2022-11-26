@@ -1,0 +1,39 @@
+{
+  "unversionedId": "api/string",
+  "id": "api/string",
+  "title": "String",
+  "description": "String rules available.",
+  "source": "@site/docs/api/string.md",
+  "sourceDirName": "api",
+  "slug": "/api/string",
+  "permalink": "/docs/api/string",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/string.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "String",
+    "description": "String rules available.",
+    "lead": "String rules available.",
+    "date": "2020-10-13T13:21:01.000Z",
+    "lastmod": "2020-10-13T13:21:01.000Z",
+    "draft": false,
+    "images": [],
+    "menu": {
+      "docs": {
+        "parent": "api"
+      }
+    },
+    "weight": 130,
+    "toc": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Number",
+    "permalink": "/docs/api/number"
+  },
+  "next": {
+    "title": "Type of Rules",
+    "permalink": "/docs/api/type-of-rules"
+  }
+}

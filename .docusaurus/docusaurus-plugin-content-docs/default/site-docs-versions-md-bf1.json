@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Versions",
+  "id": "Versions",
+  "title": "Versions",
+  "description": "1.9.4 (2022-11-14)",
+  "source": "@site/docs/Versions.md",
+  "sourceDirName": ".",
+  "slug": "/Versions",
+  "permalink": "/docs/Versions",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/Versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Any",
+    "permalink": "/docs/api/Any"
+  }
+}

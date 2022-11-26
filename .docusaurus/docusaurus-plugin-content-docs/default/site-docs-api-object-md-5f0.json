@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/Object",
+  "id": "api/Object",
+  "title": "Object",
+  "description": "Example",
+  "source": "@site/docs/api/Object.md",
+  "sourceDirName": "api",
+  "slug": "/api/Object",
+  "permalink": "/docs/api/Object",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/Object.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Array",
+    "permalink": "/docs/api/Array"
+  },
+  "next": {
+    "title": "String",
+    "permalink": "/docs/api/String"
+  }
+}

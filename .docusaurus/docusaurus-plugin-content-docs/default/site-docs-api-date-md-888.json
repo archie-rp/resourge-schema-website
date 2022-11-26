@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/Date",
+  "id": "api/Date",
+  "title": "Date",
+  "description": "Example",
+  "source": "@site/docs/api/Date.md",
+  "sourceDirName": "api",
+  "slug": "/api/Date",
+  "permalink": "/docs/api/Date",
+  "draft": false,
+  "editUrl": "https://github.com/resourge/schema/docs/api/Date.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "String",
+    "permalink": "/docs/api/String"
+  },
+  "next": {
+    "title": "Boolean",
+    "permalink": "/docs/api/Boolean"
+  }
+}
